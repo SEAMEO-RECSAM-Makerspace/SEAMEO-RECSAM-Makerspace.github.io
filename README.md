@@ -18,12 +18,11 @@ If you're interested in how this website was built, want to suggest changes, or 
 
 ## Feedback & Contributions
 
-We welcome feedback, suggestions, and contributions! If you have any ideas or found a bug, please open an issue in the **source code repository** to discuss.
+We welcome feedback, suggestions, and contributions! If you have any ideas or found a bug, please open an issue in the [**source code repository**](https://github.com/JamesTu-jtjt/makerspace-website/issues) to discuss.
 
 ## Developer Info
 
-This website was developed by **James Tu** and is powered by W3CSS.
-If you have any inquiries about the website please contact me at [jamestu6301@gmail.com](mailto:jamestu6301@gmail.com)
+This website was developed by [**James Tu**](https://www.linkedin.com/in/james-tu-ncku/) and is powered by W3CSS.
 
 ---
 
