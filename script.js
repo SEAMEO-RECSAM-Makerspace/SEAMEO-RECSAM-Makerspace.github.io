@@ -12,6 +12,7 @@ function onClick(element, event) {
       })
       .then(data => {
           document.getElementById('caption').innerHTML = data;
+          document.getElementsByClassName("dot")[0].className += " active";
       })
       .catch(error => {
           console.log('Looks like we hit a snag:', error);
