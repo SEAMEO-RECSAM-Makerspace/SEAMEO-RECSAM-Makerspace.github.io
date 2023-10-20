@@ -12,7 +12,6 @@ function onClick(element, event) {
       })
       .then(data => {
           document.getElementById('caption').innerHTML = data;
-          closeNav();
       })
       .catch(error => {
           console.log('Looks like we hit a snag:', error);
