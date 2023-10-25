@@ -1,6 +1,7 @@
 // Modal Image Gallery
 function onClick(element, event) {
   document.getElementById("modal01").style.display = "block";
+  document.getElementById("caption").style.display = "block";
   // var captionText = document.getElementById("caption");
   // captionText.innerHTML = element.alt;
   fetch(`include/projects/${event}.html`)
