@@ -1,7 +1,7 @@
 // Modal Image Gallery
 function onClick(element, event) {
+  document.getElementById("caption").style.display = "none";
   document.getElementById("modal01").style.display = "block";
-  document.getElementById("caption").style.display = "block";
   // var captionText = document.getElementById("caption");
   // captionText.innerHTML = element.alt;
   fetch(`include/projects/${event}.html`)
@@ -13,6 +13,7 @@ function onClick(element, event) {
       })
       .then(data => {
           document.getElementById('caption').innerHTML = data;
+          document.getElementById("caption").style.display = "block";
           document.getElementsByClassName("dot")[0].className += " active";
       })
       .catch(error => {
